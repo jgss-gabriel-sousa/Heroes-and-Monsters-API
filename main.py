@@ -9,7 +9,6 @@ directories = [
     "data/monster/",
     "data/spell/",
     "data/class/",
-    "data/skills/",
     "data/general/",
 ]
 
