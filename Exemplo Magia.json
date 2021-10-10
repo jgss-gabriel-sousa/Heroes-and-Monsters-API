@@ -1,0 +1,33 @@
+{
+    "name":"Nome da Magia",
+    "class":["Classe X","Classe Y","Bruxo de Hogwarts"],
+    "magic_circle":1,   //Círculo da Magia
+    "mana_cost":1,      //Custo de Mana
+    "cast_time":0,      /*Tempo de Conjuração:  -4 = Especial (Ex: Ampliar Plantas.  Nesse caso a definição deve estar na descrição do feitiço)
+                                                -3 = Reação
+                                                -2 = Ação Menor
+                                                -1 = 1 Turno
+                                                0 = 1 Ação
+                                                x > 0 = tempo em segundos
+                                                ex:
+                                                60 = 1 minuto
+                                                600 = 10 minutos
+                                                3600 = 1 Hora
+                                                86400 = 24 Horas
+                                                */
+    "range":3,  /*Alcance:  
+                -1 = Especial (Ex: Enviar Mensagem. Nesse caso a definição deve estar na descrição do feitiço)
+                0 = Pessoal
+                x > 0 = metros
+                ex:
+                1 = 1 metro
+                5 = 5 metros
+                1000 = 1 Kilometro
+                */
+    "rangeType":"Alvo",
+    "saving_trow_difficulty":"12",
+    "saving_trow_attribute":"Concentração",
+    "duration":60,     //Mesma lógica do tempo de conjuração (cast_time)
+    "concentration":true,
+    "description":"Você terá vantagem em todos os testes de Carisma direcionados a uma criatura, à sua escolha, que não seja hostil a você. Quando a magia acabar, a criatura perceberá que você usou magia para influenciar o humor dela, e ficará hostil a você. Uma criatura propensa a violência irá atacar você. Outra criatura pode buscar outras formas de retaliação (a critério do Mestre), dependendo da natureza da sua interação com ela"
+}
