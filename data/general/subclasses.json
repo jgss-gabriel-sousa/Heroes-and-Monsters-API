@@ -1,5 +1,5 @@
 {
-    "availableAt": [{
+    "availableAt": {
         "Alquimista":0,
         "Arqueiro":1,
         "Arremessador Mestre":0,
@@ -29,8 +29,8 @@
         "Sábio":0,
         "Sábio – Gênio do Mal":0,
         "Samurai":3
-    }],
-    "subclasses": [{
+    },
+    "subclasses": {
         "Alquimista":[""],
         "Arqueiro":["Franco-atirador","Nômade"],
         "Arremessador Mestre":[""],
@@ -60,5 +60,5 @@
         "Sábio":[""],
         "Sábio – Gênio do Mal":[""],
         "Samurai":["Iaijutsu","Kyūdō","Shogun","Yojimbo"]
-    }]
+    }
 }
