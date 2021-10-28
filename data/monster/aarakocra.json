@@ -1,7 +1,81 @@
 {
   "name":"Aarakocra",
   "type":"Humanoide",
-  "size":"M",
+  "size":"Médio",
+  
   "challenge":2,
-  "xp":117
+  "xp":117,
+  "defense":12,
+  "hp":13,
+
+  "movementWalking":6,
+  "movementHovering":0,
+  "movementFlying":20,
+  "movementDiging":0,
+  "movementClimbing":0,
+  "movementSwiming":0,
+
+  "strength":10,
+  "vitality":10,
+  "agility":14,
+  "charisma":11,
+  "willpower":10,
+  "wisdom":12,
+  "intelligency":11,
+
+  "languages":["Comum","Primordial"],
+  "telepathy":false,
+
+  "darkVision":0,
+  "trueVision":0,
+
+  "allignment":"Neutro e Bom",
+
+  "skills": [],
+
+  "abilities": [
+    {
+      "name":"Ataque de Mergulho",
+      "description":"Se o Aarakocra estiver voando e mergulhar, pelo menos 8 metros, em linha reta em direção de um alvo e então atingi-lo com um ataque corpo-a-corpo armado, o ataque causa 1d6 de dano extra ao alvo."
+    }
+  ],
+
+  "actions": [
+    {
+      "name":"Lança",
+      "description":"",
+      "limit":"",
+      "range":1,
+      "rangeType":"target",
+      "roll":"+4",
+      "defenseSaveThrow":"",
+      "damage":"d6+2",
+      "damageMean":5.5,
+      "damageType":"Perfurante",
+      "castTime":"1 Ação de Ataque"
+    },
+    {
+      "name":"Dardo",
+      "description":"",
+      "limit":"",
+      "range":6,
+      "rangeType":"target",
+      "roll":"+4",
+      "defenseSaveThrow":"",
+      "damage":"d4+2",
+      "damageMean":4.5,
+      "damageType":"Perfurante",
+      "castTime":"1 Ação de Ataque"
+    }
+  ],
+
+  "legendaryActions":[],
+
+  "lair":"",
+  "lairAction":[],
+
+  "regionalEffects":[],
+  "regionalEffectsDissolutionTime":"",
+
+  "description":"A serviço dos Duques do Vento de Aaqa, aarakocras patrulham os planos em busca de Templos de Mal Elemental. Eles espiam as criaturas elementais malignas e lutam contra essas criaturas e depois relatam aos Duques do Vento.\nNo Plano Material, aarakocras criam ninhos nos topos das mais altas montanhas, especialmente em picos próximos de portais para o Plano Elemental do Ar. De tais alturas, aarakocras vigiam em busca de sinais de incursões elementais, assim como por ameaças que aparecerem no seu plano natal. \nOs aarakocras preferem viver suas vidas como o vento – aliviados e sempre em movimento – ainda que eles tenham que vigiar uma região por anos se isso for necessário para protegê-la contra as incursões do Mal Elemental.\nOs aarakocras não possuem conceito de fronteiras políticas ou de propriedade privada e o valor de gemas, ouro e outros metais preciosos significam pouco para os aarakocras. Aos olhos deles, uma criatura deve usar o que é necessário e então jogar fora o que restar ao vento, para que outros usem"
 }
