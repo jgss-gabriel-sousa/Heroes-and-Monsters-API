@@ -70,7 +70,7 @@ async def returns_the_index_of_a_type(Type: str):
         raise HTTPException(status_code=404, detail="404: Item not found")
 
 
-@app.get("/{Type}/id:{id_value}")
+@app.get("/{Type}/{id_value}")
 async def return_data_by_id(Type: str, id_value: int):
     path = "data/"+Type+"/"
     try:
