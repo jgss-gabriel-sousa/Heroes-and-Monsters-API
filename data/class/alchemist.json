@@ -1,14 +1,14 @@
 {
-  "attribute-buff":"Inteligência",
-  "attribute-debuff":"Força",
+  "attributeBuff":"Inteligência",
+  "attributeDebuff":"Força",
   "skills":["Arcanismo","Construir","Conhecimento","Investigação","Percepção","Sobrevivência"],
-  "skills-to-choose":3,
-  "hit-dice":"d4",
+  "skillsToChoose":3,
+  "hitDice":"d4",
   "weapons":"Simples",
   "armor":"",
   "shields":"",
   "tools":["Ferramentas de Alquimia"],
   "equipaments":["Ácido","Bomba Cegante","Bomba de Fumaça","Ferramentas de Alquimia","Kit de Aventureiro","Poção de Cura","Poção de Cura","Veneno"],
-  "gold-fixed":25,
-  "gold-rolled":"10d4"
+  "goldFixed":25,
+  "goldRolled":"10d4"
 }
