@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-import random
-import os
+import random, os
+import jsonChecker
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -30,6 +30,14 @@ async def full_index():
 
     for i in directories:
         dirFiles = os.listdir(i)
+
+        for j in dirFiles: #dnot list folders
+            if "." not in j:
+                dirFiles.remove(j)
+
+        #for j in dirFiles:
+        #    jsonChecker.checkFile(j,i)
+
         dirFiles = [j[:-5] for j in dirFiles] #without file format
         dirFiles.sort()
 
