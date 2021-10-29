@@ -82,11 +82,11 @@ async def return_data_by_id(Type: str, id_value: int):
     path = "data/"+Type+"/"
     try:
         files = os.listdir(path)
-        dirFiles.sort()
+        files.sort()
     except:
         raise HTTPException(status_code=404, detail="404: Item not found")
 
-    if(id_value < len(files)):
+    if(id_value < len(files) and id_value >= 0):
         path += files[id_value]
         return FileResponse(path)
     else:
