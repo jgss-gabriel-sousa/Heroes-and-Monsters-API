@@ -69,7 +69,6 @@ async def return_data_by_name(name: str):
 @app.get("/index-{Type}")
 async def returns_the_index_of_a_type(Type: str):
     try:
-        print(Type)
         dirFiles = os.listdir("data/"+Type)
         dirFiles = [j[:-5] for j in dirFiles] #without file format
         dirFiles.sort()
@@ -83,6 +82,7 @@ async def return_data_by_id(Type: str, id_value: int):
     path = "data/"+Type+"/"
     try:
         files = os.listdir(path)
+        dirFiles.sort()
     except:
         raise HTTPException(status_code=404, detail="404: Item not found")
 
