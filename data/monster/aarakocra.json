@@ -5,6 +5,13 @@
   "type":"Humanoide",
   "size":"Médio",
   
+  "defense_cr":2,
+  "hp_cr":0,
+  "atk_cr":3,
+  "damage_cr":1,
+  "resistances_cr":0,
+  "immunities_cr":0,
+
   "challenge":1,
   "xp":70,
   "defense":12,

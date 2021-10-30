@@ -5,6 +5,13 @@
   "type":"Aberração",
   "size":"Grande",
   
+  "defense_cr":12,
+  "hp_cr":5,
+  "atk_cr":4,
+  "damage_cr":7,
+  "resistances_cr":0,
+  "immunities_cr":0,
+  
   "challenge":7,
   "xp":1965,
   "defense":17,
