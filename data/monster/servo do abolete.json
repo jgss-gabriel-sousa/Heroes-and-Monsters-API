@@ -1,0 +1,78 @@
+{
+  "name":"Servo do Abolete",
+  "englishName":"Aboleth Servant",
+
+  "type":"Monstro",
+  "size":"Médio",
+  
+  "defense_cr":12,
+  "hp_cr":0,
+  "atk_cr":1,
+  "damage_cr":1,
+  "resistances_cr":0,
+  "immunities_cr":0,
+
+  "challenge":3,
+  "xp":340,
+  "defense":17,
+  "hp":20,
+  "5TurnsDmg":27.5,
+
+  "movementWalking":0,
+  "movementHovering":8,
+  "movementFlying":0,
+  "movementDiging":0,
+  "movementClimbing":0,
+  "movementSwiming":6,
+
+  "strength":14,
+  "vitality":14,
+  "agility":10,
+  "charisma":8,
+  "willpower":14,
+  "wisdom":6,
+  "intelligency":1,
+
+  "languages":["Subcomum"],
+  "telepathy":true,
+  
+  "darkVision":12,
+  "trueVision":0,
+  
+  "allignment":"Leal e Mau",
+	
+  "skills": [],
+	
+  "abilities": [
+    {
+      "name":"Membrana Anfíbia",
+      "description":"Os Servos do Abolete recebem uma membrana do seu Mestre Abolete e conseguem respirar na água."
+    }
+  ],
+
+  "actions": [
+    {
+      "name":"Pancada",
+      "description":"",
+      "limit":0,
+      "range":0,
+      "rangeType":"target",
+      "roll":"+2",
+      "defenseSaveThrow":"",
+      "damage":"d6+2",
+      "damageMean":5.5,
+      "damageType":"Impacto",
+      "castTime":"1 Ação de Ataque"
+    }
+  ],
+
+  "legendaryActions":[],
+
+  "lair":"",
+  "lairAction":[],
+
+  "regionalEffects":[],
+  "regionalEffectsDissolutionTime":"",
+
+  "description":"Um Humanoide morto pelo dreno psíquico do abolete ressurge envolto em uma membrana viscosa e transparente, que lhe permite: pairar, nadar e respirar na água, sempre se mantendo junto ao Abolete, para protegê-lo.\n O Abolete consegue se comunicar com seus servos de maneira psíquica, ordenando-os, já que eles não possuem consciência, a mesma foi drenada antes de se transformarem, seu comportamento pode ser comparado a de zumbis, sem memória, inteligência ou emoções."
+}
