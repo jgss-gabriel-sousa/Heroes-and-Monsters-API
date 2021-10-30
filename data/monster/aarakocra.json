@@ -9,6 +9,7 @@
   "xp":70,
   "defense":12,
   "hp":15,
+  "5TurnsDmg":45,
 
   "movementWalking":6,
   "movementHovering":0,
