@@ -5,10 +5,10 @@
   "type":"Humanoide",
   "size":"Médio",
   
-  "challenge":2,
-  "xp":117,
+  "challenge":1,
+  "xp":70,
   "defense":12,
-  "hp":13,
+  "hp":15,
 
   "movementWalking":6,
   "movementHovering":0,
