@@ -1,0 +1,14 @@
+{
+    "name":"Adaga",
+    "type":"Simples",
+    "damage":"D4",
+    "critical":8,
+    "damage_type":"Corte ou Perfurante",
+    "munição":"",
+    "price":2,
+    "coin":"Ouro",
+    "attribute":"Agilidade ou Força",
+    "range":0,
+    "weight":0.5,
+    "special":["Arremesso (4 m)"]
+}

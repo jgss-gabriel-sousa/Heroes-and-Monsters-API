@@ -1,0 +1,14 @@
+{
+    "name":"Arco Curto",
+    "type":"Distância",
+    "damage":"D6",
+    "critical":6,
+    "damage_type":"Perfurante",
+    "munição":"Flecha",
+    "price":20,
+    "coin":"Ouro",
+    "attribute":"Agilidade",
+    "range":15,
+    "weight":1,
+    "special":["Duas Mãos","Munição"]
+}

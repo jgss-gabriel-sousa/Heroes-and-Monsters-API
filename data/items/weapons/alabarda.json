@@ -1,0 +1,14 @@
+{
+    "name":"Alabarda",
+    "type":"Arma de Haste",
+    "damage":"D10",
+    "critical":10,
+    "damage_type":"Corte",
+    "munição":"",
+    "price":30,
+    "coin":"Ouro",
+    "attribute":"Força",
+    "range":2,
+    "weight":4,
+    "special":["Duas Mãos","Haste"]
+}

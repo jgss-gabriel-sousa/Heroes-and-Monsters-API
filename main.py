@@ -21,6 +21,7 @@ directories = [
     "data/spell/",
     "data/class/",
     "data/general/",
+    "data/items/weapons/",
 ]
 
 
