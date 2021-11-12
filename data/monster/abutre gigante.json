@@ -1,29 +1,29 @@
 {
   "name":"Abutre Gigante",
-  "englishName":"Giant Vulture",
+  "english_name":"Giant Vulture",
 
   "type":"Animal",
   "size":"Grande",
   
-  "defense_cr":2,
-  "hp_cr":0,
+  "defense_cr":1,
+  "hp_cr":5,
   "atk_cr":1,
   "damage_cr":1,
-  "resistances_cr":0,
-  "immunities_cr":0,
+  "resistances_and_immunities_cr":0,
 
-  "challenge":1,
-  "xp":50,
+  "challenge_ratio":1,
+  "xp":75,
   "defense":12,
+  "bonuses_in_defense":[],
   "hp":45,
-  "5TurnsDmg":50,
+  "mana":0,
 
-  "movementWalking":2,
-  "movementHovering":0,
-  "movementFlying":6,
-  "movementDiging":0,
-  "movementClimbing":0,
-  "movementSwiming":0,
+  "movement_walking":2,
+  "movement_hovering":0,
+  "movement_flying":6,
+  "movement_digging":0,
+  "movement_climbing":0,
+  "movement_swimming":0,
 
   "strength":15,
   "vitality":15,
@@ -31,66 +31,105 @@
   "charisma":7,
   "willpower":10,
   "wisdom":12,
-  "intelligency":5,
+  "intelligence":5,
 
-  "languages":[],
-  "telepathy":false,
-  
-  "darkVision":0,
-  "trueVision":0,
-  
-  "allignment":"Neutro e Mau",
-	
   "skills": [
     {
       "skill":"Percepção",
       "value":3
     }
   ],
+
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":0,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":[],
+  "telepathy":false,
+  
+  "alignment":"Neutro e Mau",
+
+  "loot":[],
 	
   "abilities": [
     {
       "name":"Olfato Aguçado",
-      "description":"Vantagem em testes de Percepção relacionados a cheiros."
+      "description":"O Abutre Gigante tem Vantagem em testes de Percepção relacionados a cheiros."
     }
   ],
 
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting":[],
+
   "actions": [
+    {
+      "name":"Ataques Múltiplos",
+      "description":"O Abutre Gigante faz dois ataques: um com o bico e outro com as garras",
+      "limit":"",
+      "recharge":"",
+      "range":0,
+      "range_type":"",
+      "throwable":0,
+      "roll":"",
+      "save_throw":"",
+      "damage":[],
+      "time":"Ação de Ataque"
+    },    
     {
       "name":"Bicada",
       "description":"",
-      "limit":0,
-      "range":0,
-      "rangeType":"target",
+      "limit":"",
+      "recharge":"",
+      "range":1,
+      "range_type":"",
+      "throwable":0,
       "roll":"+2",
-      "defenseSaveThrow":"",
-      "damage":"2d4",
-      "damageMean":5,
-      "damageType":"Perfurante",
-      "castTime":"1 Ação"
+      "save_throw":"",
+      "damage":[
+        {
+          "dice":"2d4",
+          "damage_type":"Perfurante"
+        }
+      ],
+      "time":"Ação de Ataque"
     },
     {
       "name":"Garras",
       "description":"",
-      "limit":0,
-      "range":0,
-      "rangeType":"target",
+      "limit":"",
+      "recharge":"",
+      "range":1,
+      "range_type":"",
+      "throwable":0,
       "roll":"+2",
-      "defenseSaveThrow":"",
-      "damage":"2d4",
-      "damageMean":5,
-      "damageType":"Corte",
-      "castTime":"1 Ação"
+      "save_throw":"",
+      "damage":[
+        {
+          "dice":"2d4",
+          "damage_type":"Corte"
+        }
+      ],
+      "time":"Ação de Ataque"
     }
   ],
 
-  "legendaryActions":[],
+  "legendary_actions":[],
 
-  "lair":"",
-  "lairAction":[],
+  "lair_description":"",
+  "lair_actions":[],
 
-  "regionalEffects":[],
-  "regionalEffectsDissolutionTime":"",
+  "regional_effects_description":[],
+  "regional_effects_dissolution":"",
 
   "description":"Um abutre gigante tem inteligência avançada e uma inclinação malévola. Ao contrário de seus parentes menores, ele atacará uma criatura ferida para apressar seu fim. Abutres Gigantes são conhecidos por assombrar uma criatura faminta e sedenta durante dias, para desfrutar de seu sofrimento."
 }

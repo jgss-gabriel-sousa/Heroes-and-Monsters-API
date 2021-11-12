@@ -1,29 +1,34 @@
 {
   "name":"Abolete",
-  "englishName":"Aboleth",
+  "english_name":"Aboleth",
 
   "type":"Aberração",
   "size":"Grande",
   
-  "defense_cr":12,
-  "hp_cr":5,
+  "defense_cr":7,
+  "hp_cr":11,
   "atk_cr":4,
-  "damage_cr":7,
-  "resistances_cr":0,
-  "immunities_cr":0,
+  "damage_cr":19,
+  "resistances_and_immunities_cr":0,
   
-  "challenge":7,
-  "xp":1965,
+  "challenge_ratio":9,
+  "xp":4085,
   "defense":17,
+  "bonuses_in_defense":[
+    {
+      "name":"Membrana do Abolete",
+      "value":5
+    }
+  ],
   "hp":135,
-  "5TurnsDmg":226,
+  "mana":0,
 
-  "movementWalking":0,
-  "movementHovering":3,
-  "movementFlying":0,
-  "movementDiging":0,
-  "movementClimbing":0,
-  "movementSwiming":6,
+  "movement_walking":0,
+  "movement_hovering":3,
+  "movement_flying":0,
+  "movement_digging":0,
+  "movement_climbing":0,
+  "movement_swimming":6,
 
   "strength":21,
   "vitality":15,
@@ -31,16 +36,8 @@
   "charisma":18,
   "willpower":15,
   "wisdom":15,
-  "intelligency":18,
+  "intelligence":18,
 
-  "languages":["Subcomum"],
-  "telepathy":true,
-  
-  "darkVision":36,
-  "trueVision":0,
-  
-  "allignment":"Leal e Mau",
-	
   "skills": [
     {
       "skill":"Percepção",
@@ -51,70 +48,109 @@
       "value":12
     }
   ],
+
+  "resistances":[],
+  "immunities":[],
+  "condition_immunities":[],
+
+  "dark_vision":36,
+  "blind_sight":0,
+  "tremor_sense":0,
+  "true_vision":0,
+
+  "languages":["Subcomum"],
+  "telepathy":true,
+    
+  "allignment":"Leal e Mau",
+	
+  "loot":[],
 	
   "abilities": [
     {
       "name":"Anfíbio",
-      "description":"Pode respirar Ar ou Água"
+      "description":"O Abolete pode respirar ar e água"
     }
   ],
+
+  "spellcaster_level":0,
+  "spellcasting_attribute":"",
+  "special_spell_feature":"",
+  "spells":[],
+
+  "innate_spellcasting_description":"",
+  "innate_spellcasting":[],
 
   "actions": [
     {
       "name":"Ataques Múltiplos",
-      "description":"O Abolete realiza 3 ataques com os Tentáculos",
-      "limit":0,
+      "description":"O Abolete realiza três ataques com os Tentáculos",
+      "limit":"",
+      "recharge":"",
       "range":0,
-      "rangeType":"target",
-      "roll":"+0",
-      "defenseSaveThrow":"",
-      "damage":"",
-      "damageMean":0,
-      "damageType":"",
-      "castTime":"1 Ação de Ataque"
+      "range_type":"",
+      "throwable":0,
+      "roll":"",
+      "save_throw":"",
+      "damage":[],
+      "time":"Ação de Ataque"
     },
     {
       "name":"Cauda",
       "description":"",
       "limit":"",
+      "recharge":"",
       "range":3,
-      "rangeType":"target",
+      "range_type":"",
+      "throwable":0,
       "roll":"+0",
-      "defenseSaveThrow":"",
-      "damage":"3d6+5",
-      "damageMean":15.5,
-      "damageType":"Impacto",
-      "castTime":"1 Ação"
+      "save_throw":"",
+      "damage":[
+        {
+          "dice":"3d6+5",
+          "damage_type":"Impacto"
+        }
+      ],
+      "time":"1 Ação"
     },
     {
       "name":"Tentáculos",
       "description":"Se o alvo for uma criatura, ele deve ser bem-sucedido em um teste de Resistência com dificuldade 14 ou ficará adoecido. A doença não causa nenhum efeito por 1 minuto e pode ser removida por qualquer magia que cure doenças.\nApós 1 minuto, a pele da criatura adoecida se torna translucida e viscosa, a criatura não pode recuperar pontos de vida a não ser que esteja submersa e a doença só pode ser removida por Cura Completa.\nQuando a criatura estiver fora de um corpo de água, ela sofre 1d12 de dano de Ácido a cada 10 minutos, a menos que a pele seja umedecida antes de 10 minutos se passarem.",
       "limit":"",
+      "recharge":"",
       "range":3,
-      "rangeType":"target",
+      "range_type":"",
+      "throwable":0,
       "roll":"+9",
-      "defenseSaveThrow":"",
-      "damage":"2d6+5",
-      "damageMean":12,
-      "damageType":"Impacto",
-      "castTime":"1 Ação"
+      "save_throw":"",
+      "damage":[
+        {
+          "dice":"2d6+5",
+          "damage_type":"Impacto"
+        }
+      ],
+      "time":"1 Ação"
     },
     {
       "name":"Dreno Psíquico",
       "description":"O Abolete se cura com o dano causado. Se o alvo for um Humanoide e esta habilidade reduzir seus pontos de vida a 0 ou menos, o alvo ressurge como um Servo do Abolete",
       "limit":"3 vezes ao dia",
+      "recharge":"",
       "range":9,
-      "rangeType":"target",
+      "range_type":"",
+      "throwable":0,
       "roll":"",
-      "defenseSaveThrow":"15 de Vontade",
-      "damage":"5d8+2",
-      "damageMean":24.5,
-      "damageType":"Psíquico",
-      "castTime":"1 Turno"
+      "save_throw":"15 de Concentração",
+      "damage":[
+        {
+          "dice":"5d8+2",
+          "damage_type":"Psíquico"
+        }
+      ],
+      "time":"1 Turno"
     }
   ],
 
-  "legendaryActions":[
+  "legendary_actions":[
     {
       "name":"Chicotear",
       "description":"O Abolete realiza um ataque com a Cauda",
@@ -132,19 +168,18 @@
     }
   ],
 
-  "lair":"O covil de um abolete em lagos subterrâneos ou nas profundezas rochosas do oceano, frequentemente é cercado pelas ruínas de uma antiga cidade abolete caída. Um abolete passa a maior parte de sua existência submerso, emergindo ocasionalmente para lidar com visitantes ou adoradores dementes.",
-  "lairAction":[
-    "O abolete conjura força fantasmagórica (nenhum componente é necessário) em qualquer quantidade de criaturas que ele possa ver, a até 18 metros dele. Enquanto mantiver a concentração nesse efeito, o abolete não pode realizar outras ações de covil. Se um alvo for bem-sucedido no teste de resistência ou se o efeito terminar para ele, o alvo ficará imune a ação de covil força fantasmagórica do abolete pelas próximas 24 horas, apesar de tal criatura poder escolher ser afetada.",
-    "Poças de água a até 27 metros do abolete formam marés agarradoras. Qualquer criatura no solo a até 6 metros de tais poças deve ser bem-sucedida num teste de Atletismo com dificuldade 14, ou será puxada 6 metros para dentro da água e ficará caída. O abolete não pode usar essa ação de covil novamente até ter usado uma ação diferente.",
-    "A água no covil do abolete magicamente se transforma um condutor para a ira da criatura. O abolete pode afetar qualquer número de criaturas dentro da água que ele possa ver a até 27 metros dele. Um alvo deve ser bem-sucedido num teste de Concentração com dificuldade 14 ou sofrerá 2D6 de dano Psíquico. O abolete não pode usar essa ação de covil novamente até ter usado uma ação diferente."
+  "lair_description":"O covil de um abolete em lagos subterrâneos ou nas profundezas rochosas do oceano, frequentemente é cercado pelas ruínas de uma antiga cidade abolete caída. Um abolete passa a maior parte de sua existência submerso, emergindo ocasionalmente para lidar com visitantes ou adoradores dementes.",
+  "lair_actions":[
+    "Poças de água a até 27 metros do abolete formam marés agarradoras. Qualquer criatura no solo a até 6 metros de tais poças deve ser bem-sucedida num teste de Atletismo com dificuldade 14, ou será puxada 6 metros para dentro da água e ficará Agarrada. O abolete não pode usar essa ação de covil novamente até ter usado uma ação diferente.",
+    "A água no covil do abolete afeta magicamente qualquer criatura inimiga dele em um raio de 25 metros. Um alvo deve ser bem-sucedido num teste de Concentração com dificuldade 14 ou sofrerá 2D6 de dano Psíquico. O abolete não pode usar essa ação de covil novamente até ter usado uma ação diferente"
   ],
 
-  "regionalEffects":[
+  "regional_effects_description":[
     "Superfícies subterrâneas a até 1,5 quilômetro do covil de um abolete fica viscosa e úmida se torna terreno difícil.",
     "Fontes de água a até 1,5 quilômetro do covil ficam sobrenaturalmente poluídas. Os inimigos do abolete que beberem dessa água vomitarão dentro de minutos",
     "Uma vez por dia, o abolete pode criar uma imagem ilusória de si mesmo a até 1,5 quilômetro do seu covil. A cópia pode aparecer em qualquer lugar que o abolete já tenha visto anteriormente ou em qualquer lugar que uma criatura enfeitiçada pelo abolete possa ver atualmente.\nUma vez criada, a imagem dura enquanto o abolete desejar. Apesar da imagem ser intangível, ela se parece, emite sons e se move como o abolete. O abolete pode sentir, falar e usar telepatia da posição da imagem como se estivesse presente nessa posição.\nSe a imagem sofrer qualquer dano, ela desaparece."
   ],
-  "regionalEffectsDissolutionTime":"3d10 Dias",
+  "regional_effects_dissolution":"Se o abolete morrer, os primeiros dois efeitos desvanecem dentro de 3D10 dias.",
 
-  "description":"Antes da chegada dos deuses, os aboletes espreitavam nos oceanos primordiais e em lagos subterrâneos. Eles chegaram com suas mentes e tomaram controle das formas de vida florescentes do reino mortal, fazendo dessas criaturas seus escravos. Sua dominação os torna similares a deuses. Então, os verdadeiros deuses apareceram, esmagando o império abolete e libertando seus escravos. Os aboletes nunca esqueceram.\nOs aboletes possuem memórias impecáveis. Eles passam seus conhecimentos e experiências de geração em geração. Então, a injuria da derrota deles pelos deuses permanece perfeitamente preservada em suas mentes.\nA mente dos aboletes são preciosos conhecimentos antigos, relembrando de momentos da pré-história com perfeita clareza. Eles tramaram pacientemente e intrincadamente através das eras. Poucas criaturas podem conceber a extensão dos planos de um abolete.\nOs aboletes habitam ambientes aquáticos, incluindo abismos oceânicos, lagos profundos e o Plano Elemental da Água. Nesses domínios e nas terras adjacentes, os aboletes são como deuses, demandando veneração e obediência dos seus subordinados. Quando eles consomem outras criaturas, os aboletes adicionam o conhecimento e as experiências de suas prezas às suas memórias eternas.\nOs aboletes usam seus poderes telepáticos para ler a mente de criaturas e descobrir seus desejos. Um abolete usa esse conhecimento para ganhar a lealdade da criatura, prometendo satisfazer tais necessidades em troca de obediência. Dentro do seu covil, o abolete pode, posteriormente, usar seus poderes para enganar os sentidos, fornecendo às criaturas, como seus seguidores, a ilusão das recompensas prometidas.\nA queda do poder dos aboletes está escrita com total claramente em suas memórias impecáveis, pois os aboletes nunca morrem de verdade. Se o corpo de um abolete for destruído, seu espírito retorna para o Plano Elemental da Água, onde um novo corpo se funde a ele ao longo de dias ou meses.\nEm última análise, os aboletes sonham em destituir os deuses e recuperar o controle sobre o mundo. Os aboletes tiveram incalculáveis eras para tramar e preparar seus planos para uma perfeita execução."
+  "description":"Antes da chegada dos deuses, os aboletes espreitavam nos oceanos primordiais e em lagos subterrâneos. Eles chegaram com suas mentes e tomaram controle das formas de vida florescentes do reino mortal, fazendo dessas criaturas seus escravos. Sua dominação os torna similares a deuses. Então, os verdadeiros deuses apareceram, esmagando o império abolete e libertando seus escravos. Os aboletes nunca esqueceram.\nOs aboletes possuem memórias impecáveis. Eles passam seus conhecimentos e experiências de geração em geração. Então, a injuria da derrota deles pelos deuses permanece perfeitamente preservada em suas mentes.\nA mente dos aboletes são preciosos conhecimentos antigos, relembrando de momentos da pré-história com perfeita clareza. Eles tramaram pacientemente e intrincadamente através das eras. Poucas criaturas podem conceber a extensão dos planos de um abolete.\nOs aboletes habitam ambientes aquáticos, incluindo abismos oceânicos, lagos profundos e o Plano Elemental da Água. Nesses domínios e nas terras adjacentes, os aboletes são como deuses, demandando veneração e obediência dos seus subordinados. Quando eles consomem outras criaturas, os aboletes adicionam o conhecimento e as experiências de suas prezas às suas memórias eternas.\nOs aboletes usam seus poderes telepáticos para ler a mente de criaturas e descobrir seus desejos. Um abolete usa esse conhecimento para ganhar a lealdade da criatura, prometendo satisfazer tais necessidades em troca de obediência. Dentro do seu covil, o abolete pode, posteriormente, usar seus poderes para enganar os sentidos, fornecendo às criaturas, como seus seguidores, a ilusão das recompensas prometidas.\nA queda do poder dos aboletes está escrita com total claramente em suas memórias impecáveis, pois os aboletes nunca morrem de verdade. Se o corpo de um abolete for destruído, seu espírito retorna para o Plano Elemental da Água, onde um novo corpo se funde a ele ao longo de dias ou meses.\nEm última análise, os aboletes sonham em destituir os deuses e recuperar o controle sobre o mundo. Os aboletes tiveram incalculáveis eras para tramar e preparar seus planos para uma perfeita execução.\n"
 }
