@@ -38,16 +38,7 @@
   "wisdom":15,
   "intelligence":18,
 
-  "skills": [
-    {
-      "skill":"Percepção",
-      "value":10
-    },
-    {
-      "skill":"Conhecimento",
-      "value":12
-    }
-  ],
+  "skills": ["+12 Conhecimento","+10 Percepção"],
 
   "resistances":[],
   "immunities":[],

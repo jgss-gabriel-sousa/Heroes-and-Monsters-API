@@ -33,12 +33,7 @@
   "wisdom":12,
   "intelligence":11,
 
-  "skills":[
-    {
-      "skill":"Percepção",
-      "value":5
-    }
-  ],
+  "skills":["+5 Percepção"],
 
   "resistances":[],
   "immunities":[],
