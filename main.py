@@ -78,17 +78,23 @@ async def returns_the_index_of_a_type(Type: str):
         raise HTTPException(status_code=404, detail="404: Item not found")
 
 
-@app.get("/{Type}/{id_value}")
-async def return_data_by_id(Type: str, id_value: int):
-    path = "data/"+Type+"/"
+@app.get("/{Directory}/{id_value}")
+async def return_data_by_id(Directory: str, id_value: int):
+    path = "data/"+Directory+"/"
+
     try:
-        files = os.listdir(path)
-        files.sort()
+        dirFiles = os.listdir(path)
+        
+        for j in dirFiles:
+            if "." not in j:
+                dirFiles.remove(j)
+        dirFiles = [j[:-5] for j in dirFiles] #without file format
+        dirFiles.sort()
     except:
         raise HTTPException(status_code=404, detail="404: Item not found")
 
-    if(id_value < len(files) and id_value >= 0):
-        path += files[id_value]
+    if(id_value < len(dirFiles) and id_value >= 0):
+        path += dirFiles[id_value]+".json"
         return FileResponse(path)
     else:
         raise HTTPException(status_code=404, detail="404: Item not found")
