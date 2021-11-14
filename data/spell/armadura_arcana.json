@@ -2,13 +2,12 @@
     "name":"Armadura Arcana",
     "class":["Feiticeiro","Mago","Necromante","Sábio"],
     "magic_circle":2,
-    "mana_cost":3,
-    "cast_time":0,
-    "range":0,
-    "rangeType":"Toque",
-    "saving_trow_difficulty":"",
-    "saving_trow_attribute":"",
-    "duration":28800,
+    "cast_time":"Instântaneo",
+    "range":"Toque",
+    "saving_trow":"",
+    "duration":"8 Horas",
     "concentration":false,
-    "description":"Você toca uma criatura voluntária, que não esteja vestindo uma armadura média ou pesada e uma energia mágica protetora a envolve. O alvo ganha 2 de Defesa. A magia acaba, se o alvo colocar uma armadura média ou pesada."
+    "description":"Você toca uma criatura voluntária, que não esteja vestindo uma armadura média ou pesada e uma energia mágica protetora a envolve. O alvo ganha 2 de Defesa. A magia acaba, se o alvo colocar uma armadura média ou pesada.",
+    "spell-evolution-description":"",
+    "spell-evolution":[]
 }
