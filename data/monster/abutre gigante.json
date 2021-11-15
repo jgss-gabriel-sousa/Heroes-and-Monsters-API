@@ -7,16 +7,16 @@
   "size":"Grande",
   
   "defense_cr":1,
-  "hp_cr":5,
-  "atk_cr":1,
-  "damage_cr":1,
+  "hp_cr":2,
+  "atk_cr":4,
+  "damage_cr":3,
   "resistances_and_immunities_cr":0,
 
-  "challenge_ratio":1,
-  "xp":75,
+  "challenge_ratio":2,
+  "xp":185,
   "defense":12,
   "bonuses_in_defense":[],
-  "hp":45,
+  "hp":22,
   "mana":0,
 
   "movement_walking":2,
@@ -81,12 +81,12 @@
       "effect":["O Abutre Gigante realiza dois ataques: um com o Bico e outro com as Garras"]
     },   
     {
-      "name":"Bicada",
+      "name":"Bico",
       "limit":"",
       "recharge":"",
       "range":"Corpo a Corpo",
-      "roll":"+2",
-      "damage":"2d4 (Perfurante)",
+      "roll":"+4",
+      "damage":"2d4+2 (Perfurante)",
       "save_throw":"",
       "time":"Ação de Ataque",
       "effect":[]
@@ -96,8 +96,8 @@
       "limit":"",
       "recharge":"",
       "range":"Corpo a Corpo",
-      "roll":"+2",
-      "damage":"2d4 (Corte)",
+      "roll":"+4",
+      "damage":"2d6+2 (Corte)",
       "save_throw":"",
       "time":"Ação de Ataque",
       "effect":[]
