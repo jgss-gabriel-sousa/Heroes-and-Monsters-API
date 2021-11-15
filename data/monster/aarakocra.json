@@ -47,6 +47,7 @@
 
   "languages":["Comum","Primordial"],
   "telepathy":false,
+  "only_understands":false,
 
   "alignment":"Neutro e Bom",
 

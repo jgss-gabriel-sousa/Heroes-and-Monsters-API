@@ -52,6 +52,7 @@
 
   "languages":["Subcomum"],
   "telepathy":true,
+  "only_understands":false,
     
   "alignment":"Leal e Mau",
 	

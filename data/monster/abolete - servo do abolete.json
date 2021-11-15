@@ -50,8 +50,9 @@
   "tremor_sense":0,
   "true_vision":0,
 
-  "languages":["Subcomum"],
-  "telepathy":true,
+  "languages":[],
+  "telepathy":false,
+  "only_understands":false,
   
   "alignment":"Leal e Mau",
 
