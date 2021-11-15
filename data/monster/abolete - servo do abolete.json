@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name":"Membrana Anfíbia",
-      "description":"Os Servos do Abolete recebem uma membrana do seu Mestre Abolete e conseguem respirar na água."
+      "description":["Os Servos do Abolete recebem uma membrana do seu Mestre Abolete e conseguem respirar na água."]
     }
   ],
 

@@ -55,7 +55,7 @@
   "abilities": [
     {
       "name":"Ataque de Mergulho",
-      "description":"Se o aarakocra estiver voando e mergulhar pelo menos 8 metros em linha reta, em direção a um alvo e então atingi-lo com um ataque corpo-a-corpo armado, o ataque causa 1d6 de dano extra ao alvo."
+      "description":["Se o aarakocra estiver voando e mergulhar pelo menos 8 metros em linha reta, em direção a um alvo e então atingi-lo com um ataque corpo-a-corpo armado, o ataque causa 1d6 de dano extra ao alvo."]
     }
   ],
 

@@ -55,7 +55,7 @@
   "abilities": [
     {
       "name":"Olfato Aguçado",
-      "description":"O Abutre Gigante tem Vantagem em testes de Percepção relacionados a cheiros."
+      "description":["O Abutre Gigante tem Vantagem em testes de Percepção relacionados a cheiros."]
     }
   ],
 

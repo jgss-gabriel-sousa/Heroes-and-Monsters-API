@@ -55,7 +55,7 @@
   "abilities": [
     {
       "name":"Visão Aguçada",
-      "description":"A Águia tem Vantagem em testes de Percepção relacionados a visão."
+      "description":["A Águia tem Vantagem em testes de Percepção relacionados a visão."]
     }
   ],
 

@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name":"Anfíbio",
-      "description":"O Abolete pode respirar ar e água"
+      "description":["O Abolete pode respirar ar e água"]
     }
   ],
 
