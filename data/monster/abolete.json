@@ -6,14 +6,14 @@
   "type":"Aberração",
   "size":"Grande",
   
-  "defense_cr":7,
+  "defense_cr":10,
   "hp_cr":11,
-  "atk_cr":4,
-  "damage_cr":19,
+  "atk_cr":1,
+  "damage_cr":17,
   "resistances_and_immunities_cr":0,
   
   "challenge_ratio":9,
-  "xp":4085,
+  "xp":3850,
   "defense":17,
   "bonuses_in_defense":[
     {
