@@ -70,39 +70,25 @@
   "actions": [
     {
       "name":"Bicada",
-      "description":"",
       "limit":"",
       "recharge":"",
-      "range":1,
-      "range_type":"",
-      "throwable":0,
+      "range":"Corpo a Corpo",
       "roll":"+2",
+      "damage":"d4 (Perfurante)",
       "save_throw":"",
-      "damage":[
-        {
-          "dice":"d4",
-          "damage_type":"Perfurante"
-        }
-      ],
-      "time":"Ação de Ataque"
+      "time":"Ação de Ataque",
+      "effect":[]
     },
     {
       "name":"Garras",
-      "description":"",
       "limit":"",
       "recharge":"",
-      "range":1,
-      "range_type":"",
-      "throwable":0,
+      "range":"Corpo a Corpo",
       "roll":"+2",
+      "damage":"d4 (Corte)",
       "save_throw":"",
-      "damage":[
-        {
-          "dice":"d4",
-          "damage_type":"Perfurante"
-        }
-      ],
-      "time":"Ação de Ataque"
+      "time":"Ação de Ataque",
+      "effect":[]
     }
   ],
 
@@ -114,5 +100,5 @@
   "regional_effects_description":[],
   "regional_effects_dissolution":"",
 
-  "description":"Essas aves de rapina habitam quase todos os terrenos e climas, embora todos prefiram locais de nidificação altos e isolados."
+  "description":["Essas aves de rapina habitam quase todos os terrenos e climas, embora todos prefiram locais de nidificação altos e isolados."]
 }

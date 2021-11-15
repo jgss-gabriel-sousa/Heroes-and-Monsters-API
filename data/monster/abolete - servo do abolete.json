@@ -75,21 +75,14 @@
   "actions": [
     {
       "name":"Pancada",
-      "description":"",
       "limit":"",
       "recharge":"",
-      "range":1,
-      "range_type":"",
-      "throwable":0,
+      "range":"Corpo a Corpo",
       "roll":"+2",
+      "damage":"d6+2 (Impacto)",
       "save_throw":"",
-      "damage":[
-        {
-          "dice":"d6+2",
-          "damage_type":"Impacto"
-        }
-      ],
-      "time":"Ação de Ataque"
+      "time":"Ação de Ataque",
+      "effect":[]
     }
   ],
 
@@ -101,5 +94,8 @@
   "regional_effects_description":[],
   "regional_effects_dissolution":"",
 
-  "description":"Um Humanoide morto pelo dreno psíquico do abolete ressurge envolto em uma membrana viscosa e transparente, que lhe permite: pairar, nadar e respirar na água, sempre se mantendo junto ao Abolete, para protegê-lo.\nO Abolete consegue se comunicar com seus servos de maneira psíquica, ordenando-os, já que eles não possuem consciência, a mesma foi drenada antes de se transformarem, seu comportamento pode ser comparado a de zumbis, sem memória, inteligência ou emoções."
+  "description":[
+    "Um Humanoide morto pelo dreno psíquico do abolete ressurge envolto em uma membrana viscosa e transparente, que lhe permite: pairar, nadar e respirar na água, sempre se mantendo junto ao Abolete, para protegê-lo.",
+    "O Abolete consegue se comunicar com seus servos de maneira psíquica, ordenando-os, já que eles não possuem consciência, a mesma foi drenada antes de se transformarem, seu comportamento pode ser comparado a de zumbis, sem memória, inteligência ou emoções."
+  ]
 }

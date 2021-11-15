@@ -70,52 +70,36 @@
   "actions": [
     {
       "name":"Ataques Múltiplos",
-      "description":"O Abutre Gigante faz dois ataques: um com o bico e outro com as garras",
       "limit":"",
       "recharge":"",
-      "range":0,
-      "range_type":"",
-      "throwable":0,
+      "range":"",
       "roll":"",
+      "damage":"",
       "save_throw":"",
-      "damage":[],
-      "time":"Ação de Ataque"
-    },    
+      "time":"Ação de Ataque",
+      "effect":["O Abutre Gigante realiza dois ataques: um com o Bico e outro com as Garras"]
+    },   
     {
       "name":"Bicada",
-      "description":"",
       "limit":"",
       "recharge":"",
-      "range":1,
-      "range_type":"",
-      "throwable":0,
+      "range":"Corpo a Corpo",
       "roll":"+2",
+      "damage":"2d4 (Perfurante)",
       "save_throw":"",
-      "damage":[
-        {
-          "dice":"2d4",
-          "damage_type":"Perfurante"
-        }
-      ],
-      "time":"Ação de Ataque"
+      "time":"Ação de Ataque",
+      "effect":[]
     },
     {
       "name":"Garras",
-      "description":"",
       "limit":"",
       "recharge":"",
-      "range":1,
-      "range_type":"",
-      "throwable":0,
+      "range":"Corpo a Corpo",
       "roll":"+2",
+      "damage":"2d4 (Corte)",
       "save_throw":"",
-      "damage":[
-        {
-          "dice":"2d4",
-          "damage_type":"Corte"
-        }
-      ],
-      "time":"Ação de Ataque"
+      "time":"Ação de Ataque",
+      "effect":[]
     }
   ],
 
@@ -127,5 +111,5 @@
   "regional_effects_description":[],
   "regional_effects_dissolution":"",
 
-  "description":"Um abutre gigante tem inteligência avançada e uma inclinação malévola. Ao contrário de seus parentes menores, ele atacará uma criatura ferida para apressar seu fim. Abutres Gigantes são conhecidos por assombrar uma criatura faminta e sedenta durante dias, para desfrutar de seu sofrimento."
+  "description":["Um abutre gigante tem inteligência avançada e uma inclinação malévola. Ao contrário de seus parentes menores, ele atacará uma criatura ferida para apressar seu fim. Abutres Gigantes são conhecidos por assombrar uma criatura faminta e sedenta durante dias, para desfrutar de seu sofrimento."]
 }
