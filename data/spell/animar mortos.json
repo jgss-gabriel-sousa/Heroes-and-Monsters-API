@@ -4,6 +4,8 @@
     "magic_circle":4,
     "cast_time":"1 Minuto",
     "range":"2 Metros",
+    "attack_roll":false,
+    "damage":[],
     "saving_trow":"",
     "duration":"24 Horas",
     "concentration":false,
@@ -14,6 +16,6 @@
 
         "A criatura fica sob seu controle por 24 horas, depois disso ela para de obedecer aos seus comandos. Para manter o controle da criatura por mais 24 horas, você deve conjurar essa magia na criatura novamente, antes das 24 horas atuais terminarem. Esse uso da magia recupera seu controle sobre até quatro criaturas que você tenha animado com essa magia, ao invés de animar uma nova."
     ],
-    "spell-evolution-description":"",
+    "spell-evolution-type":"",
     "spell-evolution":[]
 }
