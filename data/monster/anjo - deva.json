@@ -47,7 +47,7 @@
   "tremor_sense":0,
   "true_vision":36,
 
-  "languages":["Todas"],
+  "languages":["Todos"],
   "telepathy":true,
   "only_understands":false,
   
@@ -93,7 +93,7 @@
       "damage":"",
       "save_throw":"",
       "time":"Ação de Ataque",
-      "effect":["O Deva realiza dois ataques com a Maça Angelical"]
+      "effect":["O Deva realiza dois ataques com a Maça Angelical."]
     },
     {
       "name":"Maça Angelical",
@@ -115,7 +115,7 @@
       "damage":"",
       "save_throw":"",
       "time":"1 Ação",
-      "effect":["O alvo recebe uma Cura de 4d8+8 pontos de vida e recupera-se de Maldição, Doença, Veneno, Cegueira e Surdez"]
+      "effect":["O alvo recebe uma Cura de 4d8+8 pontos de vida e recupera-se de Maldição, Doença, Veneno, Cegueira e Surdez."]
     },
     {
       "name":"Alterar Forma",
