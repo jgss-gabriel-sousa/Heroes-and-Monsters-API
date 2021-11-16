@@ -41,6 +41,7 @@
 
   "skills": ["+12 Conhecimento","+10 Percepção"],
 
+  "vulnerability":[],
   "resistances":[],
   "immunities":[],
   "condition_immunities":[],

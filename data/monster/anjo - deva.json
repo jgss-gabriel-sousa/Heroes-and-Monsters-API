@@ -38,6 +38,7 @@
     "+9 Percepção"
   ],
 
+  "vulnerability":[],
   "resistances":["Radiante","Físico de armas não mágicas"],
   "immunities":[],
   "condition_immunities":["Amedrontado","Encantado","Exausto"],
