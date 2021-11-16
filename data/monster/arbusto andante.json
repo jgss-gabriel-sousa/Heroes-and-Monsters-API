@@ -34,15 +34,15 @@
   "wisdom":3,
   "intelligence":1,
 
-  "skills":["+7 Furtividade"],
+  "skills":[],
 
   "vulnerability":["Corte","Fogo"],
   "resistances":["Perfurante"],
   "immunities":["Psíquico","Veneno"],
   "condition_immunities":["Amedrontado","Cego","Encantado","Exausto","Paralisado","Petrificado","Surdo"],
 
-  "dark_vision":12,
-  "blind_sight":2,
+  "dark_vision":0,
+  "blind_sight":12,
   "tremor_sense":0,
   "true_vision":0,
 
@@ -50,7 +50,7 @@
   "telepathy":false,
   "only_understands":false,
   
-  "alignment":"Neutro",
+  "alignment":"De acordo com o seu criador",
 
   "loot":[],
 	
