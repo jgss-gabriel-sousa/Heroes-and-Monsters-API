@@ -68,7 +68,8 @@
   "special_spell_feature":"",
   "spells":[],
 
-  "innate_spellcasting_description":"O deva pode conjurar de maneira inata as magias:",
+  "innate_spellcasting_description":"",
+  "innate_spellcasting_attribute":"",
   "innate_spellcasting":[
     {
       "spell":"Detectar o Bem e Mal",
