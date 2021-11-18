@@ -117,7 +117,7 @@
       "time":"1 Ação",
       "effect":[
 		"Considerando que a banshee não esteja sob a luz do sol, ela libera um lamento triste em forma de grito. Esse grito não produz efeito em constructos e mortos-vivos, mas todas as outras criaturas no alcance, que puderem ouvi-la, devem realizar o teste de salvamento.",
-		"Se falhar no teste, a criatura sofre o dano e vai adquirir 1 ponto de Insanidade. Já se for bem-sucedido, sofre somente metade do dano"
+		"Se falhar no teste, a criatura sofre o dano e vai adquirir 1 ponto de Insanidade. Já se o teste for bem-sucedido, sofre somente metade do dano"
 	  ]
     }
   ],
