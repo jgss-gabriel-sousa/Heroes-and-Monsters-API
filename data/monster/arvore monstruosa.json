@@ -4,7 +4,7 @@
   "english_name":"Monstrous Tree",
 
   "type":"Planta",
-  "size":"Médio",
+  "size":"Grande",
   
   "defense_cr":10,
   "hp_cr":8,
@@ -34,12 +34,7 @@
   "wisdom":10,
   "intelligence":6,
 
-  "skills":[
-    {
-      "name":"Aparência Falsa",
-      "description":["Enquanto a árvore monstruosa permanecer imóvel, ela é indistinguível de uma árvore normal."]
-    }
-  ],
+  "skills":[],
 
   "vulnerability":[],
   "resistances":[],
@@ -59,7 +54,12 @@
 
   "loot":[],
 	
-  "abilities":[],
+  "abilities":[
+    {
+      "name":"Aparência Falsa",
+      "description":["Enquanto a árvore monstruosa permanecer imóvel, ela é indistinguível de uma árvore normal."]
+    }
+  ],
 
   "spellcaster_level":0,
   "spellcasting_attribute":"",
