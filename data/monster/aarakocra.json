@@ -76,7 +76,7 @@
       "name":"Lança",
       "limit":"",
       "recharge":"",
-      "range":"Corpo a Corpo",
+      "range":"Corpo a Corpo ou Arremesso (6 metros)",
       "roll":"+4",
       "damage":"d6+2 (Perfurante)",
       "save_throw":"",
@@ -85,7 +85,7 @@
     },
     {
       "name":"Dardo",
-      "limit":"",
+      "limit":"10 vezes",
       "recharge":"",
       "range":"Corpo a Corpo ou Arremesso (6 metros)",
       "roll":"+4",
