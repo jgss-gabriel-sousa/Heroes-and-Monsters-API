@@ -6,6 +6,7 @@
     "range":"Raio de 10 Metros",
     "attack_roll":false,
     "damage":[],
+    "heal":"",
     "saving_trow":"",
     "duration":"10 Minutos",
     "concentration":true,

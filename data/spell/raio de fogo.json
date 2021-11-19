@@ -8,6 +8,7 @@
     "damage":[
         ["Dano","d10 (Fogo)"]
     ],
+    "heal":"",
     "saving_trow":"",
     "duration":"",
     "concentration":false,

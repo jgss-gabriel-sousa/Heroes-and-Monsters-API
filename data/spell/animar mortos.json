@@ -6,6 +6,7 @@
     "range":"2 Metros",
     "attack_roll":false,
     "damage":[],
+    "heal":"",
     "saving_trow":"",
     "duration":"24 Horas",
     "concentration":false,

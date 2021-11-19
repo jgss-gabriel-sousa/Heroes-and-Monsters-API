@@ -6,6 +6,7 @@
     "range":"Toque",
     "attack_roll":false,
     "damage":[],
+    "heal":"",
     "saving_trow":"",
     "duration":"8 Horas",
     "concentration":false,
