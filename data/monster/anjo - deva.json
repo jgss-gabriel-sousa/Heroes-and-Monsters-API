@@ -12,7 +12,7 @@
   "damage_cr":7,
   "resistances_and_immunities_cr":2.125,
 
-  "challenge_ratio":1,
+  "challenge_ratio":11,
   "xp":7040,
   "defense":18,
   "bonuses_in_defense":[],
