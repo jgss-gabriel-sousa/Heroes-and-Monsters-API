@@ -87,7 +87,7 @@
   "spellcaster_level":5,
   "spellcasting_attribute":"Carisma",
   "special_spell_feature":"",
-  "spells":["Cura","Rajada Mística","Mão Mágica","Armadura de Agathys","Bruxaria","Recuo Acelerado","Invisibilidade","Toque Vampírico"],
+  "spells":["Cura","Mão Mágica","Rajada Mística","Armadura de Agathys","Bruxaria","Recuo Acelerado","Invisibilidade","Toque Vampírico"],
 
   "innate_spellcasting_description":"",
   "innate_spellcasting":[],
