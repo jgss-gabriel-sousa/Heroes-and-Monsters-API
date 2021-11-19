@@ -24,7 +24,7 @@
   "movement_flying":0,
   "movement_digging":0,
   "movement_climbing":0,
-  "movement_swimming":0,
+  "movement_swimming":9,
 
   "strength":13,
   "vitality":10,
