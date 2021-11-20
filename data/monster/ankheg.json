@@ -29,7 +29,7 @@
   "movement_walking":6,
   "movement_hovering":0,
   "movement_flying":0,
-  "movement_digging":3,
+  "movement_burrow":3,
   "movement_climbing":0,
   "movement_swimming":0,
 

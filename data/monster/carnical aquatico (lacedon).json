@@ -24,7 +24,7 @@
   "movement_walking":9,
   "movement_hovering":0,
   "movement_flying":0,
-  "movement_digging":0,
+  "movement_burrow":0,
   "movement_climbing":0,
   "movement_swimming":9,
 
