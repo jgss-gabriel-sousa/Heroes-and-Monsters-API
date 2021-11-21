@@ -3,7 +3,7 @@
   "name_pronoun":"o Cão Infernal",
   "english_name":"Hell Hound",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Infernal",
   "size":"Médio",

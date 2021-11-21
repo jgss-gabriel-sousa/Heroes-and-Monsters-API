@@ -3,7 +3,7 @@
   "name_pronoun":"o Camelo",
   "english_name":"Camel",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Grande",

@@ -3,7 +3,7 @@
   "name_pronoun":"o Bugbear",
   "english_name":"Bugbear",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Humanoide",
   "size":"Médio",

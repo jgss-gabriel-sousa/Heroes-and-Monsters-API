@@ -3,7 +3,7 @@
   "name_pronoun":"o Cachorro",
   "english_name":"Dog",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Pequeno",

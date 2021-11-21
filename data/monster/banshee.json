@@ -3,7 +3,7 @@
   "name_pronoun":"a Banshee",
   "english_name":"banshee",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Morto-Vivo",
   "size":"Médio",

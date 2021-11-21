@@ -3,7 +3,7 @@
   "name_pronoun":"o Servo do Abolete",
   "english_name":"Aboleth - Aboleth Servant",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Monstro",
   "size":"Médio",

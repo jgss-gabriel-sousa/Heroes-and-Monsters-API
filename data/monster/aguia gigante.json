@@ -3,7 +3,7 @@
   "name_pronoun":"a Águia Gigante",
   "english_name":"Giant Eagle",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Grande",

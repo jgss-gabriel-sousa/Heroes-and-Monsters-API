@@ -3,7 +3,7 @@
   "name_pronoun":"o Abolete",
   "english_name":"Aboleth",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Aberração",
   "size":"Grande",

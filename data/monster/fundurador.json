@@ -3,7 +3,7 @@
   "name_pronoun":"o Fundurador",
   "english_name":"Fathomer",
 
-  "source":"pota",
+  "source":["pota"],
 
   "type":"Humanoide",
   "size":"Médio",

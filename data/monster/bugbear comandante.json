@@ -3,7 +3,7 @@
   "name_pronoun":"o Bugbear Comandante",
   "english_name":"Bugbear Chief",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Humanoide",
   "size":"Médio",

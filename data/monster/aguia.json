@@ -3,7 +3,7 @@
   "name_pronoun":"a Águia",
   "english_name":"Eagle",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Pequeno",

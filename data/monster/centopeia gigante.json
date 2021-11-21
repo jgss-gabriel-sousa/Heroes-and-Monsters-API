@@ -3,7 +3,7 @@
   "name_pronoun":"a Centopeia Gigante",
   "english_name":"Giant Centipede",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Pequeno",

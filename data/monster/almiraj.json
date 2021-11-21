@@ -3,7 +3,7 @@
   "name_pronoun":"o Almiraj",
   "english_name":"Almiraj",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Pequeno",

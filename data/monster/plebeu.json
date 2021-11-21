@@ -3,7 +3,7 @@
   "name_pronoun":"o Plebeu",
   "english_name":"Commoner",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Humanoide",
   "size":"Médio",

@@ -3,7 +3,7 @@
   "name_pronoun":"o Cavalo",
   "english_name":"Horse",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Grande",

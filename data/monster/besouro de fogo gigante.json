@@ -3,7 +3,7 @@
   "name_pronoun":"o Besouro de Fogo Gigante",
   "english_name":"Giant Fire Beetle",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Pequeno",

@@ -3,7 +3,7 @@
   "name_pronoun":"o Texugo",
   "english_name":"Badger",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Minúsculo",

@@ -3,7 +3,7 @@
   "name_pronoun":"a Armadura Animada",
   "english_name":"Animated Armor",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Constructo",
   "size":"Médio",

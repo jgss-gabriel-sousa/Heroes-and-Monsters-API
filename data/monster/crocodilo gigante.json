@@ -3,7 +3,7 @@
   "name_pronoun":"o Crocodilo Gigante",
   "english_name":"Giant Crocodile",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Enorme",

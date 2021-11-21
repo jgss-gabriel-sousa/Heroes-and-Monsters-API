@@ -3,7 +3,7 @@
   "name_pronoun":"o Crocodilo",
   "english_name":"Crocodile",
 
-  "source":"bestiario",
+  "source":["bestiario"],
 
   "type":"Animal",
   "size":"Grande",
