@@ -73,17 +73,6 @@
 
   "actions": [
     {
-      "name":"Ataques Múltiplos",
-      "limit":"",
-      "recharge":"",
-      "range":"",
-      "roll":"",
-      "damage":"",
-      "save_throw":"",
-      "time":"Ação de Ataque",
-      "effect":["O Abutre Gigante realiza dois ataques: um com o Bico e outro com as Garras"]
-    },   
-    {
       "name":"Bico",
       "limit":"",
       "recharge":"",
@@ -91,7 +80,7 @@
       "roll":"+4",
       "damage":"2d4+2 (Perfurante)",
       "save_throw":"",
-      "time":"Ação de Ataque",
+      "time":"1 Ação",
       "effect":[]
     },
     {
@@ -102,7 +91,7 @@
       "roll":"+4",
       "damage":"2d6+2 (Corte)",
       "save_throw":"",
-      "time":"Ação de Ataque",
+      "time":"1 Ação",
       "effect":[]
     }
   ],

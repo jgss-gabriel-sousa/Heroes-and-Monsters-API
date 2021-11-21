@@ -78,17 +78,6 @@
 
   "actions": [
     {
-      "name":"Ataques Múltiplos",
-      "limit":"",
-      "recharge":"",
-      "range":"",
-      "roll":"",
-      "damage":"",
-      "save_throw":"",
-      "time":"Ação de Ataque",
-      "effect":["O Boitatá realiza dois ataques, um com a Mordida e outro com a Cauda"]
-    },
-    {
       "name":"Mordida",
       "limit":"",
       "recharge":"",
@@ -96,7 +85,7 @@
       "roll":"+6",
       "damage":"d10+2 (Perfurante) + 4d6 (Fogo)",
       "save_throw":"",
-      "time":"Ação de Ataque",
+      "time":"1 Ação",
       "effect":[]
     },
     {
@@ -107,7 +96,7 @@
       "roll":"+6",
       "damage":"d10+2 (Perfurante) + 4d6 (Fogo)",
       "save_throw":"",
-      "time":"Ação de Ataque",
+      "time":"1 Ação",
       "effect":[]
     }
   ],

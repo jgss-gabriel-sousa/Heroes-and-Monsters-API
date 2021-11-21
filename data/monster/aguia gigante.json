@@ -77,17 +77,6 @@
 
   "actions": [
     {
-      "name":"Ataques Múltiplos",
-      "limit":"",
-      "recharge":"",
-      "range":"",
-      "roll":"",
-      "damage":"",
-      "save_throw":"",
-      "time":"Ação de Ataque",
-      "effect":["A Águia Gigante realiza dois ataques: um com o Bico e outro com as Garras"]
-    },  
-    {
       "name":"Bico",
       "limit":"",
       "recharge":"",
@@ -95,7 +84,7 @@
       "roll":"+5",
       "damage":"d6+3 (Perfurante)",
       "save_throw":"",
-      "time":"Ação de Ataque",
+      "time":"1 Ação",
       "effect":[]
     },
     {
@@ -106,7 +95,7 @@
       "roll":"+5",
       "damage":"2d6+3 (Corte)",
       "save_throw":"",
-      "time":"Ação de Ataque",
+      "time":"1 Ação",
       "effect":[]
     }
   ],
