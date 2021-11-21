@@ -78,7 +78,7 @@
         "\u2022 Mesmo em forma de serpente o Fundurador consegue conjurar magias."
 	  ]
     },
-	{
+	  {
       "name":"Armadura de Olhydra",
       "description":["O Fundurador está sempre protegido pela magia Armadura Arcana."]
     }
@@ -104,7 +104,7 @@
       "time":"Ação de Ataque",
       "effect":["Se o alvo for Médio ou menor, ele será Agarrado, podendo fazer o teste de salvamento como uma ação no seu turno. O fundurador pode agarrar somente uma criatura ao mesmo tempo."]
     },
-	{
+	  {
       "name":"Adaga (Forma Humana)",
       "limit":"",
       "recharge":"",
