@@ -3,7 +3,7 @@
   "name_pronoun":"o Carniçal Aquático",
   "english_name":"Aquatic Ghoul (Lacedon)",
 
-  "source":["bestiario"],
+  "source":["bestiario","pota"],
 
   "type":"Monstro",
   "size":"Médio",
