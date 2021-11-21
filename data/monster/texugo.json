@@ -5,7 +5,7 @@
 
   "source":"bestiario",
 
-  "type":"Humanoide",
+  "type":"Animal",
   "size":"Minúsculo",
   
   "defense_cr":3,
