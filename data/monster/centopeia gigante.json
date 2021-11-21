@@ -56,12 +56,7 @@
 
   "loot":[],
 	
-  "abilities":[
-    {
-      "name":"Animal de Carga",
-      "description":["O cavalo tem uma carga máxima de 120 Kg e pode puxar até 360 Kg."]
-    }
-  ],
+  "abilities":[],
 
   "spellcaster_level":0,
   "spellcasting_attribute":"",
