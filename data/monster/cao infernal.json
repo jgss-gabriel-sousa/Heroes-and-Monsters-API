@@ -57,7 +57,7 @@
   "loot":[],
 	
   "abilities":[
-	{
+	  {
       "name":"Audição e Olfato Aguçados",
       "description":["O Cão Infernal tem Vantagem em testes de Percepção relacionados a audição ou olfato."]
     }
