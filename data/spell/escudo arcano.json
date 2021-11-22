@@ -13,6 +13,6 @@
     "description":[
         "Uma barreira de energia invisível aparece e protege você. Até o início do seu próximo turno, você recebe +5 na Defesa, incluindo contra o ataque que desencadeou a magia. Você não sofre dano da magia Mísseis Mágicos."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

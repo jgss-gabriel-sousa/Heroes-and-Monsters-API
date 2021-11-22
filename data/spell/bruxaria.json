@@ -17,8 +17,8 @@
         "Além disso, escolha um Atributo ao lançar o feitiço. O alvo tem Desvantagem em testes feitos com o atributo escolhido.",
         "A conjuração da magia Remover Maldição no alvo, encerra esta maldição."
     ],
-    "spell-evolution-type":"mana",
-    "spell-evolution":[
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
         ["6","Duração de 8 Horas (Concentração)"],
         ["10","Duração de 12 Horas (Concentração)"],
         ["15","Duração de 24 Horas (Concentração)"]

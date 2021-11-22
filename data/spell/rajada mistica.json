@@ -15,8 +15,8 @@
     "description":[
         "Um feixe de energia crepitante vai em direção a uma criatura dentro do alcance. Caso possua múltiplos feixes, você pode direcioná-los para o mesmo alvo ou para diferentes, fazendo uma rolagem de ataque e dano para cada feixe."
     ],
-    "spell-evolution-type":"level",
-    "spell-evolution":[
+    "spell_evolution_type":"level",
+    "spell_evolution":[
         ["5","Dois feixes de Energia"],
         ["11","Três feixes de Energia"],
         ["17","Quatro feixes de Energia"]

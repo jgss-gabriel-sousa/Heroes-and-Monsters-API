@@ -17,6 +17,6 @@
         "A Defesa da cópia é igual a 10 + seu modificador de Agilidade. Se um ataque atingir uma cópia, ela é destruída. Uma cópia só pode ser destruída por um ataque que a atinja. Ela ignora todos os outros danos e efeitos. A magia acaba quando todas as três cópias forem destruídas.",
         "Uma criatura não pode ser afetada por essa magia se não puder enxergar, se ela contar com outros sentidos além da visão, como percepção às cegas, ou se ela puder perceber ilusões como falsas, como com visão verdadeira."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

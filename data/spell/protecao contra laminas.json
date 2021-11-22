@@ -13,6 +13,6 @@
     "description":[
         "Você estende suas mãos e desenha um símbolo de proteção no ar. Até o final do seu próximo turno, você terá Resistência contra dano Físico causado por ataques com armas."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

@@ -13,6 +13,6 @@
     "description":[
         "Uma criatura que você tocar recupera-se de seus ferimentos. Essa magia não produz efeito em mortos-vivos ou constructos."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

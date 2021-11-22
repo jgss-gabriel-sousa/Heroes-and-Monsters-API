@@ -16,6 +16,6 @@
     "description":[
         "Você cria um fragmento de gelo e arremessa-o em uma criatura dentro do alcance. Se atingir, o alvo sofre dano, atingindo ou errando, o fragmento explode. O alvo e cada criatura a até 2 metro do ponto onde o gelo explodiu deve ser bem-sucedido no teste de salvamento ou sofrerá o dano da explosão."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

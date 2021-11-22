@@ -14,8 +14,8 @@
         "Um feixe ofuscante de luzes coloridas ordenadas surge da sua mão. Role 6D10; o total é a quantidade de pontos de vida de criaturas que essa magia pode afetar. As criaturas no alcance são afetadas em ordem ascendente dos seus pontos de vida (ignorando criaturas inconsciente e que não possam ver).",
         "Começando com as criaturas que tiverem menos pontos de vida, cada criatura afetada por essa magia ficará Cega até o fim da magia. Subtraia do total de pontos da magia os pontos de vida da criatura afetada antes de considerar a próxima. Os pontos de vida de uma criatura devem ser iguais ou menores que o total restante da magia para que essa criatura seja afetada."
     ],
-    "spell-evolution-type":"mana",
-    "spell-evolution":[
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
         ["6","A magia pode afetar 8d10 pontos de vida"],
         ["10","A magia pode afetar 10d10 pontos de vida"],
         ["15","A magia pode afetar 12d10 pontos de vida"]

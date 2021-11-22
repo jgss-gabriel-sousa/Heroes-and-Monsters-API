@@ -13,8 +13,8 @@
     "description":[
         "Você cria uma esfera de névoa de 6 m de raio, centrada num ponto, dentro do alcance. A área dela é de escuridão densa e ela permanece pela duração ou até um vento, pelo menos moderado, disperse-a."
     ],
-    "spell-evolution-type":"mana",
-    "spell-evolution":[
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
         ["6","12 metros de raio"],
         ["10","18 metros de raio"],
         ["15","24 metros de raio"]

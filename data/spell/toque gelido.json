@@ -18,8 +18,8 @@
         "Realize um ataque de toque a distância contra a criatura alvo, se atingir, a criatura sofre o Dano e cria uma aura gélida de 1 metro de raio, as outras criaturas dentro desta aura sofrem o Dano da Aura.",
         "Criaturas que começarem seus turnos, ou entrem, na aura gélida, não podem recuperar pontos de vida até o início do seu próximo turno."
     ],
-    "spell-evolution-type":"level",
-    "spell-evolution":[
+    "spell_evolution_type":"level",
+    "spell_evolution":[
         ["5","2d6 de Dano e 2d4 de Dano da Aura"],
         ["11","3d6 de Dano e 3d4 de Dano da Aura"],
         ["17","4d6 de Dano e 4d4 de Dano da Aura"]

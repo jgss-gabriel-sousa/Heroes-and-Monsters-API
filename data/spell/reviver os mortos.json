@@ -16,6 +16,6 @@
         "Essa magia fecha todos os ferimentos mortais, mas ela não restaura partes do corpo perdidas. Se a criatura não tiver uma parte do corpo ou órgão fundamental para sua sobrevivência, sua cabeça, por exemplo, a magia falha automaticamente.",
         "Voltar dos mortos é um calvário. O alvo sofre –6 de penalidade em todas as suas jogadas de ataque, testes de salvamento e testes de habilidade. A cada vez que o alvo terminar um descanso longo, as penalidades são reduzidas em 1, até desaparecerem."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

@@ -16,6 +16,6 @@
     "description":[
         "Você cria três dardos brilhantes de energia mística. Cada dardo atinge uma criatura, à sua escolha, que você possa ver. Você pode comandar os dardos para que atinjam uma mesma criatura."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

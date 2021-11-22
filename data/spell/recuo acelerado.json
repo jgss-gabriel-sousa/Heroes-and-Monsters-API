@@ -13,6 +13,6 @@
     "description":[
         "Essa magia permite que você se mova a um ritmo incrível. Enquanto essa magia durar você pode realizar a manobra Correr como uma Ação."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

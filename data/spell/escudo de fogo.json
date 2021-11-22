@@ -15,6 +15,6 @@
     "description":[
         "Finas e discretas chamas rodeiam seu corpo pela duração, lhe garantindo Resistência a dano de Gelo. Além disso, sempre que uma criatura atingir você com um ataque corpo-a-corpo, o escudo expele chamas e o atacante sofre o Dano Colateral."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

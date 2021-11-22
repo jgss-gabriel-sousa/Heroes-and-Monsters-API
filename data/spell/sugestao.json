@@ -15,6 +15,6 @@
         "O alvo deve realizar o teste de salvamento. Se falhar, seguirá o curso de ação que você descreveu, da melhor forma possível. O curso de ação sugerido pode continuar por toda a duração. Se a atividade sugerida puder ser completada em um tempo menor, a magia termina quando o alvo completar o que lhe foi dito para que fizesse.",
         "Se você ou um dos seus companheiros causar dano a uma criatura afetada por essa magia, a magia termina."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

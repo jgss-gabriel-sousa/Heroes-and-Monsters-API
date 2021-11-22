@@ -14,6 +14,6 @@
         "Seu corpo se torna turvo, mudando e oscilando, para todos que puderem ver você. Pela duração, qualquer criatura terá Desvantagem nas jogadas de ataque contra você.",
         "Um atacante é imune a esse efeito se não depender de visão, como os que tenham sentidos às cegas ou os que puderem ver através de ilusões, como os com visão verdadeira."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

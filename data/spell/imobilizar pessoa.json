@@ -14,6 +14,6 @@
         "Escolha um humanoide que você possa ver, dentro do alcance. O alvo deve ser bem-sucedido no teste de salvamento ou ficará Paralisado pela duração. Essa magia não tem efeito em mortos-vivos.",
         "No final de cada um dos turnos do alvo, ele pode realizar outro teste de salvamento. Se obtiver sucesso, a magia termina no alvo."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

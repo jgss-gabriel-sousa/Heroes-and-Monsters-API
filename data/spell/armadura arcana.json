@@ -13,6 +13,6 @@
     "description":[
         "Você toca uma criatura voluntária, que não esteja vestindo uma armadura média ou pesada e uma energia mágica protetora a envolve. O alvo ganha 2 de Defesa. A magia acaba, se o alvo colocar uma armadura média ou pesada."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

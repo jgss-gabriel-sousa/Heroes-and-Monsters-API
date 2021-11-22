@@ -17,8 +17,8 @@
         "Um alvo sofre dano se falhar no teste, ou metade desse dano se obtiver sucesso.",
         "O fogo se espalha, dobrando esquinas. Ele incendeia objetos inflamáveis na área que não estejam sendo vestidos ou carregados."
     ],
-    "spell-evolution-type":"mana",
-    "spell-evolution":[
+    "spell_evolution_type":"mana",
+    "spell_evolution":[
         ["15","9d6 de Dano"],
         ["21","10d6 de Dano"],
         ["28","11d6 de Dano"]

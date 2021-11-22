@@ -13,6 +13,6 @@
     "description":[
         "Escolha até cinco criaturas caindo, dentro do alcance. A velocidade de queda de uma criatura caindo é reduzida, até o fim da magia. Se a criatura aterrissar antes da magia acabar, ela não sofre nenhum dano de queda."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }

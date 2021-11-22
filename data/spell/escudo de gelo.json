@@ -15,6 +15,6 @@
     "description":[
         "Sua pele emana uma aura gélida, lhe garantindo Resistência a dano de Fogo. Além disso, sempre que uma criatura atingir você com um ataque corpo-a-corpo, o escudo congela o atacante, que sofre o Dano Colateral."
     ],
-    "spell-evolution-type":"",
-    "spell-evolution":[]
+    "spell_evolution_type":"",
+    "spell_evolution":[]
 }
