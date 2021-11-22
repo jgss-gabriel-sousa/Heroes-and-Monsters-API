@@ -26,7 +26,7 @@
   "movement_flying":7,
   "movement_burrow":0,
   "movement_climbing":0,
-  "movement_swimming":6,
+  "movement_swimming":0,
 
   "strength":4,
   "vitality":11,
