@@ -21,9 +21,9 @@
   "hp":4,
   "mana":0,
 
-  "movement_walking":2,
+  "movement_walking":1,
   "movement_hovering":0,
-  "movement_flying":7,
+  "movement_flying":5,
   "movement_burrow":0,
   "movement_climbing":0,
   "movement_swimming":0,

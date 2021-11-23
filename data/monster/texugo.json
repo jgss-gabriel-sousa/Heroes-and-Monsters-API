@@ -21,10 +21,10 @@
   "hp":3,
   "mana":0,
 
-  "movement_walking":7,
+  "movement_walking":4,
   "movement_hovering":0,
   "movement_flying":0,
-  "movement_burrow":2,
+  "movement_burrow":1,
   "movement_climbing":0,
   "movement_swimming":0,
 

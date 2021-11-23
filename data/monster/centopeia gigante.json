@@ -21,11 +21,11 @@
   "hp":10,
   "mana":0,
 
-  "movement_walking":8,
+  "movement_walking":6,
   "movement_hovering":0,
   "movement_flying":0,
   "movement_burrow":0,
-  "movement_climbing":8,
+  "movement_climbing":6,
   "movement_swimming":0,
 
   "strength":5,
