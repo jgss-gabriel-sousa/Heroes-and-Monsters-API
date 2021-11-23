@@ -48,7 +48,7 @@
   "tremor_sense":0,
   "true_vision":0,
 
-  "languages":[],
+  "languages":["Comum"],
   "telepathy":false,
   "only_understands":false,
   
