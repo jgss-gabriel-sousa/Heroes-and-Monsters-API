@@ -1,7 +1,7 @@
 {
     "name":"Onda Trovejante",
     "class":["Bardo","Druida","Feiticeiro","Mago"],
-    "magic_circle":3,
+    "magic_circle":2,
     "cast_time":"1 Ação",
     "range":"Raio de 3 Metros",
     "attack_roll":false,
