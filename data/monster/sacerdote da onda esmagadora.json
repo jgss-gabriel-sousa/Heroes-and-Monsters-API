@@ -66,6 +66,7 @@
   "spellcaster_level":7,
   "spellcasting_attribute":"Vontade",
   "special_spell_feature":"",
+  "arcane_failure":0,
   "spells":["Cura","Ilusão","Mão Mágica","Prestidigitação","Raio de Gelo","Escudo Arcano","Faca de Gelo","Mísseis Mágicos","Recuo Acelerado","Nublar","Imobilizar Pessoa","Nevasca"],
 
   "innate_spellcasting_description":"",

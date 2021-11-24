@@ -71,6 +71,7 @@
   "spellcaster_level":5,
   "spellcasting_attribute":"Carisma",
   "special_spell_feature":"",
+  "arcane_failure":0,
   "spells":["Mão Mágica","Toque Gélido","Armadura Arcana","Névoa","Onda Trovejante","Passo Nebuloso","Reflexos","Medo"],
 
   "innate_spellcasting_description":"",

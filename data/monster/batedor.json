@@ -71,6 +71,7 @@
   "spellcaster_level":0,
   "spellcasting_attribute":"",
   "special_spell_feature":"",
+  "arcane_failure":0,
   "spells":[],
 
   "innate_spellcasting_description":"",
