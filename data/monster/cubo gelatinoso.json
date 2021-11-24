@@ -102,7 +102,7 @@
       "roll":"",
       "damage":"",
       "save_throw":"",
-      "time":"1 Ação",
+      "time":"1 Ação de Movimento",
       "effect":[
         "O cubo se move, como em uma ação de movimento. Ao fazer isso, ele pode entrar no espaço de criaturas Grandes ou menores. Sempre que o cubo entra no espaço de uma criatura, a criatura deve fazer um teste de Reflexos com dificuldade 12.",
         "Em um teste bem-sucedido, a criatura se move 1 metro, para trás ou para o lado do cubo.",
