@@ -69,7 +69,7 @@
     {
       "name":"Réplica do Abolete",
       "description":[
-        "Uma vez por dia, o abolete pode criar uma imagem ilusória de si mesmo a até 1,5 quilômetro do seu covil. A cópia pode aparecer em qualquer lugar que o abolete tenha visão, que já tenha visto anteriormente ou em um lugar que algum dos servos do abolete possa ver.",
+        "Uma vez por dia, o abolete pode criar uma imagem ilusória de si mesmo a até 2 quilômetro do seu covil. A cópia pode aparecer em qualquer lugar que o abolete tenha visão, que já tenha visto anteriormente ou em um lugar que algum dos servos do abolete possa ver.",
         "Uma vez criada, a imagem dura enquanto o abolete desejar. Apesar da imagem ser intangível, ela se parece, emite sons e se move como o abolete. O abolete pode sentir, falar e usar telepatia da posição da imagem como se estivesse presente nessa posição. Mas se a imagem sofrer qualquer dano, ela desaparece."
       ]
     }
@@ -161,8 +161,8 @@
   ],
 
   "regional_effects_description":[
-    "Superfícies subterrâneas a até 1,5 quilômetro do covil de um abolete fica viscosa e úmida se torna terreno difícil.",
-    "Fontes de água a até 1,5 quilômetro do covil ficam sobrenaturalmente poluídas. Os inimigos do abolete que beberem dessa água vomitarão dentro de minutos."
+    "Superfícies subterrâneas a até 2 quilômetro do covil de um abolete ficam viscosas e úmidas, tornando-se terreno difícil.",
+    "Fontes de água a até 2 quilômetro do covil ficam sobrenaturalmente poluídas. Os inimigos do abolete que beberem dessa água vomitarão dentro de minutos."
   ],
   "regional_effects_dissolution":"Se o abolete morrer, os efeitos desvanecem dentro de 3d10 dias.",
   
