@@ -3,7 +3,7 @@
   "name_pronoun":"o Lobisomem",
   "english_name":"Werewolf",
 
-  "source":["bestiario"],
+  "source":["bestiario","pota"],
 
   "type":"Humanoide",
   "size":"Médio",
