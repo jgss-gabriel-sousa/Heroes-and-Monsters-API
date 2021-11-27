@@ -94,5 +94,9 @@
   "regional_effects_description":[],
   "regional_effects_dissolution":"",
 
-  "description":["Podem se incluir como Plebeus: Camponeses, Servos, Escravos, Criados, Peregrinos, Mercadores, Artesãos e Eremitas."]
+  "description":[
+    "Os soldados rasos do Culto da Onda Esmagadora são ferozes destruidores do mar. Muitos deles eram piratas antes de caírem no culto e continuam ávidos por sangue e pilhagem.",
+    "Os saqueadores da onda esmagadora apreciam o valor da dissimulação e da surpresa, e procuram oportunidades de lançar ataques repentinos de posições ocultas sempre que possível.",
+    "Os saqueadores são altamente leais aos sacerdotes do culto, mas raramente lutam até a morte, principalmente se existir uma opção de fuga. Eles carregam escudos feitos de cascas de caranguejos gigantes, e as lâminas de suas espadas são revestidas com dentes de tubarão."
+  ]
 }
