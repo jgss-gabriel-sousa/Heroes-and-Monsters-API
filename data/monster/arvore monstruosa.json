@@ -83,7 +83,8 @@
       "save_throw":"15 de Atletismo",
       "time":"1 Ação",
       "effect":[
-        "O alvo deve fazer o Teste de Salvamento, se falhar ficará Agarrado. Caso seja agarrado, pode tentar outro teste com uma ação no seu turno.",
+        "O alvo, que deve ser de tamanho Grande ou menor, tem que fazer o Teste de Salvamento, se falhar, ficará Agarrado.",
+        "Uma criatura agarrada pode tentar outro salvamento com uma ação no seu turno.",
         "A Árvore Monstruosa consegue manter um máximo de 3 criaturas agarradas ao mesmo tempo."
       ]
     },
