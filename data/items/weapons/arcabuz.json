@@ -4,11 +4,11 @@
     "damage":"D12",
     "critical":24,
     "damage_type":"Perfurante",
-    "munição":"Balas",
+    "ammunition":"Balas",
     "price":200,
     "coin":"Ouro",
     "attribute":"Agilidade",
     "range":15,
     "weight":3,
-    "special":["Duas Mãos","Munição","Recarga (1)"]
+    "special":["Duas Mãos","ammunition","Recarga (1)"]
 }

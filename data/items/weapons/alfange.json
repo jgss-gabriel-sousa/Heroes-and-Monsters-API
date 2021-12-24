@@ -4,7 +4,7 @@
     "damage":"2D4",
     "critical":8,
     "damage_type":"Corte ou Perfurante",
-    "munição":"",
+    "ammunition":"",
     "price":75,
     "coin":"Ouro",
     "attribute":"Força",

@@ -1,10 +1,10 @@
 {
     "name":"Azagaia",
     "type":"Distância",
-    "damage":"D6",
+    "damage":d4,
     "critical":6,
     "damage_type":"Perfurante",
-    "munição":"",
+    "ammunition":"",
     "price":5,
     "coin":"Prata",
     "attribute":"Agilidade",
