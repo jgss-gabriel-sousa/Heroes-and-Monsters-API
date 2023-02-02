@@ -10,7 +10,7 @@ jobs:
   deploy: 
     name: Setup GCP Account
     runs-on: ubuntu-latest
-    environment: gcp-prod
+    environment: prod
     env:
       IMAGE_NAME: gcr.io/${{ secrets.GCP_PROJECT_ID }}/site:latest
     steps:
