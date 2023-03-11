@@ -32,7 +32,29 @@ app.use((req, res, next) => {
 });
 
 app.get(`/`, (req, res) => {
-    res.status(200);
+    const files = {};
+
+    for (const i of directories) {
+        const dirFiles = fs.readdirSync(i);
+
+        for (let j = 0; j < dirFiles.length; j++) {
+        if (!dirFiles[j].includes('.')) {
+            dirFiles.splice(j, 1);
+            j--;
+        }
+        }
+
+        //for (const j of dirFiles) {
+        //  jsonChecker.checkFile(j, i);
+        //}
+
+        const trimmedFiles = dirFiles.map(j => j.slice(0, -5));
+        trimmedFiles.sort();
+
+        files[i.slice(5, -1)] = trimmedFiles;
+    }
+
+    res.send(files);
 });
 
 app.get('/query-:name', async (req, res) => {
