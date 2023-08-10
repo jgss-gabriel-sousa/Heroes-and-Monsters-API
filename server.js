@@ -12,7 +12,8 @@ directories = [
     "data/general/",
     "data/monster/",
     "data/spell/",
-    "data/weapons/",
+    "data/items/",
+    "data/items/weapons",
 ]
 
 async function readJSONFile(filePath){
