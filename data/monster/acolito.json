@@ -14,7 +14,7 @@
   "damage_cr":0.250,
   "resistances_and_immunities_cr":0,
 
-  "challenge_ratio":4,
+  "challenge_ratio":0.25,
   "xp":14,
   "defense":10,
   "bonuses_in_defense":[],
@@ -70,12 +70,12 @@
 
   "actions": [
     {
-      "name":"Bastão",
+      "name":"Maça Leve",
       "limit":"",
       "recharge":"",
       "range":"Corpo a Corpo",
-      "roll":"+2",
-      "damage":"d4 (Impacto)",
+      "roll":"+0",
+      "damage":"d6 (Impacto)",
       "save_throw":"",
       "time":"Ação de Ataque",
       "effect":[]
