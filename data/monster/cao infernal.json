@@ -89,7 +89,7 @@
       "time":"1 Ação",
       "effect":[]
     },
-	{
+    {
       "name":"Sopro de Fogo",
       "limit":"",
       "recharge":"5-6",
@@ -98,9 +98,7 @@
       "damage":"6d6 (Fogo)",
       "save_throw":"12 de Reflexos",
       "time":"1 Ação",
-      "effect":[
-		"Cada criatura no alcance deve fazer o teste de salvamento, recebendo o dano em um teste falho, ou metade do dano em um teste bem-sucedido."
-	  ]
+      "effect":["Cada criatura no alcance deve fazer o teste de salvamento, recebendo o dano em um teste falho, ou metade do dano em um teste bem-sucedido."]
     }
   ],
 
