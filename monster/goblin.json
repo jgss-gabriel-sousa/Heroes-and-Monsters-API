@@ -8,7 +8,7 @@
   "type":"Humanoide",
   "size":"Pequeno",
   
-  "defense_cr":3,
+  "defense_cr":2,
   "hp_cr":0.125,
   "atk_cr":1,
   "damage_cr":0.250,
